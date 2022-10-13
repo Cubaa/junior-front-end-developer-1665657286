@@ -33,6 +33,10 @@ export const TaskItem = styled.li`
   &:nth-of-type(5) {
     pointer-events: none;
   }
+
+  &:nth-child(5) div {
+    padding: 0;
+  }
 `;
 
 export const TaskIcon = styled.div`

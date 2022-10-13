@@ -1,4 +1,5 @@
 import React from "react";
+import { generateIcon } from "../../../helpers/generate-icon";
 import { tasks } from "./tasks-content.data";
 import {
   TasksContentComponent,
@@ -15,11 +16,11 @@ export const TasksContent = () => {
       <TasksListWrapper className="tasks">
         <TasksList className="tasks-list">
           {tasks.map((task, index) => {
-            const { title, icon, status } = task;
+            const { title, status } = task;
             return (
               <TaskItem key={index}>
                 <TaskIcon status={status}>
-                  <img src={icon} alt="icon" />
+                  <img src={generateIcon(status)} alt="icon" />
                 </TaskIcon>
                 <TaskLink status={status} href="/#">
                   {title}
