@@ -1,5 +1,5 @@
 import React from "react";
-import { generateIcon } from "../../../helpers/generate-icon";
+import { generateIcon } from "../../../utils/generate-icon";
 import { tasks } from "./tasks-content.data";
 import {
   TasksContentComponent,
