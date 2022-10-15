@@ -11,9 +11,8 @@ import {
   MessageWrapper,
 } from "./contexts-content.styled";
 
-export const ContextsContent = (props) => {
-  const { businessContexts } = props;
-  const { businessContextId } = useContext(BusinessContext);
+export const ContextsContent = () => {
+  const { businessContextId, businessContexts } = useContext(BusinessContext);
 
   return (
     <ContextsContentComponent>

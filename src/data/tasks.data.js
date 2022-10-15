@@ -4,10 +4,10 @@ export const tasks = [
     businessContexts: [
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Business Application Setup",
         author: "John Doe",
         created_at: {
-          day: 10,
+          day: 2,
           month: "October",
           time: {
             hour: 11,
@@ -24,7 +24,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "Application has been accepted 🎉🙌",
+        title: "Business Application Setup 2",
         author: "John Doe2",
         created_at: {
           day: 10,
@@ -44,7 +44,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Business Application Setup 3.",
         author: "John Doe3",
         created_at: {
           day: 10,
@@ -70,7 +70,7 @@ export const tasks = [
     businessContexts: [
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Static Books List 1",
         author: "Olga Nelson",
         created_at: {
           day: 10,
@@ -90,7 +90,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "Application has been accepted 🎉🙌",
+        title: "Static Books List 2",
         author: "Kirsten Aniston",
         created_at: {
           day: 10,
@@ -110,7 +110,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Static Books List 3",
         author: "Olga Nelson",
         created_at: {
           day: 10,
@@ -136,7 +136,7 @@ export const tasks = [
     businessContexts: [
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Administration Panel 1",
         author: "Olga Nelson",
         created_at: {
           day: 10,
@@ -156,7 +156,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "Application has been accepted 🎉🙌",
+        title: "Administration Panel 2",
         author: "Kirsten Aniston",
         created_at: {
           day: 10,
@@ -176,7 +176,7 @@ export const tasks = [
       },
       {
         image: "/assets/mEZ3PoFGs_k.svg",
-        title: "New sprint, tasks and intro information.",
+        title: "Administration Panel 3",
         author: "Olga Nelson",
         created_at: {
           day: 10,
