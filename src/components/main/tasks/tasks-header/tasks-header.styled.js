@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TasksHeaderComponent = styled.div`
   border-bottom: 1px solid #f4f5f7;
-  padding: 16px 24px;
+  padding: 24px 87px 24px 48px;
 
   p {
     text-transform: uppercase;
