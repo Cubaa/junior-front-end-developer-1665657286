@@ -8,7 +8,11 @@ export const GlobaStyles = createGlobalStyle`
     font-family: "Poppins", sans-serif;
   }
 
+  html {
+    min-height: 100vh;
+  }
+
   body {
-    height: 100vh;
+    background-color: #f4f5f7;
   }
 `;
