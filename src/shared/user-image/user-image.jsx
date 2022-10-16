@@ -5,7 +5,7 @@ export const UserImage = (props) => {
   const { image } = props;
 
   return (
-    <UserImageComponent className="user-icon" tabIndex="0">
+    <UserImageComponent tabIndex="0">
       <img src={image} alt="user-icon" />
     </UserImageComponent>
   );

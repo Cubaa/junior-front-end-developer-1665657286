@@ -35,7 +35,7 @@ export const ContentHeader = () => {
             onClick={(e) => handleTabClick(e)}
           >
             <TabIcon src={tab.icon} alt="tab icon" />
-            <TabName>{tab.name}</TabName>
+            <TabName tabIndex="0">{tab.name}</TabName>
           </Tab>
         );
       })}

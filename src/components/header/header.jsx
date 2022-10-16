@@ -5,8 +5,8 @@ import { UserImage } from "../../shared/user-image/user-image";
 export const Header = () => {
   return (
     <HeaderComponent>
-      <Nav className="main-menu">
-        <CompanyLogo>
+      <Nav>
+        <CompanyLogo tabIndex="0">
           <img src="/assets/Union.svg" alt="logo" />
         </CompanyLogo>
         <UserImage image="/assets/Frame 46.svg" />
