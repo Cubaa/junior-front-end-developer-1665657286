@@ -18,9 +18,17 @@ export const ContextListComponent = styled.div`
 export const CardComponent = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: ${(props) =>
+    !props.new && props.index !== props.businessContextId
+      ? "transparent"
+      : "#ffffff"};
   border-radius: 8px;
   padding: 10px 20px;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s linear;
+  box-shadow: ${(props) =>
+    props.index === props.businessContextId
+      ? "0px 8px 16px rgba(84, 84, 84, 0.2)"
+      : "0"};
   gap: 8px;
+  cursor: pointer;
 `;

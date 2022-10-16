@@ -16,7 +16,7 @@ import {
 export const TasksContent = () => {
   const { setTaskName } = useContext(TaskContext);
 
-  const clickHandler = useCallback(
+  const clickTaskHandler = useCallback(
     (title) => {
       setTaskName(title);
     },
@@ -24,13 +24,17 @@ export const TasksContent = () => {
   );
 
   return (
-    <TasksContentComponent className="content">
-      <TasksListWrapper className="tasks">
-        <TasksList className="tasks-list">
+    <TasksContentComponent>
+      <TasksListWrapper>
+        <TasksList>
           {tasks.map((task, index) => {
             const { title, status } = task;
             return (
-              <TaskItem key={index} onClick={() => clickHandler(title)}>
+              <TaskItem
+                key={index}
+                onClick={() => clickTaskHandler(title)}
+                status={status}
+              >
                 <TaskIcon status={status}>
                   <img src={generateIcon(status)} alt="icon" />
                 </TaskIcon>

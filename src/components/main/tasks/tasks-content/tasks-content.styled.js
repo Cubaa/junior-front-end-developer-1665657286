@@ -25,17 +25,15 @@ export const TaskItem = styled.li`
   padding: 10px 5px;
   margin-right: 10px;
   transition: background-color 0.2s linear;
+  pointer-events: ${(props) => (props.status === "blocked" ? "none" : "auto")};
 
   &:hover {
-    background: rgba(1, 103, 255, 0.2);
+    background-color: ${(props) =>
+      props.status === "blocked" ? "unset" : "rgba(1, 103, 255, 0.2)"};
   }
 
-  &:nth-of-type(5) {
-    pointer-events: none;
-  }
-
-  &:nth-child(5) div {
-    padding: 0;
+  div {
+    padding: ${(props) => props.status === "blocked" && 0};
   }
 `;
 
