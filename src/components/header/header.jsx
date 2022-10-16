@@ -9,7 +9,7 @@ export const Header = () => {
         <CompanyLogo tabIndex="0">
           <img src="/assets/Union.svg" alt="logo" />
         </CompanyLogo>
-        <UserImage image="/assets/Frame 46.svg" />
+        <UserImage image="/assets/mEZ3PoFGs_k.svg" />
       </Nav>
     </HeaderComponent>
   );
